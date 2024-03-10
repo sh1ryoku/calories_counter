@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376875123355",
+    "project_id": "foodcounter-9244c",
+    "storage_bucket": "foodcounter-9244c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376875123355:android:e8fcb77cc9df953340bc3e",
+        "android_client_info": {
+          "package_name": "com.example.foodcounter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdxgOrQUo674kUi_G54Kg3IOj4rQFcdWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

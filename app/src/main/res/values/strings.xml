@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Counter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apply_btn">Apply</string>
+    <string name="none" />
+    <string name="enter_calories">Enter calories</string>
+    <string name="enter_food_title">Enter food title</string>
+    <string name="enter_carbs">Enter carbs</string>
+    <string name="enter_proteins">Enter proteins</string>
+    <string name="enter_fats">Enter fats</string>
+    <string name="food_subtitle">In 100 grams of product</string>
+    <string name="calories">Calories:</string>
+    <string name="proteins">Proteins:</string>
+    <string name="fats">Fats:</string>
+    <string name="carbs">Carbs:</string>
+    <string name="delete">Delete</string>
+</resources>

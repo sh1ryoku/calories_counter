@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:background="@color/cardview_dark_background"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="@color/black"
+    android:layout_margin="@dimen/card_text_margin">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/food_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/foodTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/card_text_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/foodSubtitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginTop="@dimen/card_text_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foodTitleTV"
+            android:text="@string/food_subtitle"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/caloriesTV"
+            android:layout_width="@dimen/card_text_width"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginTop="@dimen/card_text_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foodSubtitleTV"
+            android:text="@string/calories"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/proteinsTV"
+            android:layout_width="@dimen/card_text_width"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginTop="@dimen/card_text_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/caloriesTV"
+            android:text="@string/proteins"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/fatsTV"
+            android:layout_width="@dimen/card_text_width"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginTop="@dimen/card_text_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/proteinsTV"
+            android:text="@string/fats"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/carbsTV"
+            android:layout_width="@dimen/card_text_width"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginTop="@dimen/card_text_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fatsTV"
+            android:text="@string/carbs"
+            android:textSize="17sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/caloriesAmountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/card_text_height"
+            app:layout_constraintStart_toEndOf="@id/caloriesTV"
+            app:layout_constraintTop_toBottomOf="@id/foodSubtitleTV"
+            android:layout_marginTop="@dimen/card_text_margin"
+            android:layout_marginStart="@dimen/card_text_margin"
+            android:textSize="17sp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/proteinsAmountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/card_text_height"
+            app:layout_constraintStart_toEndOf="@id/proteinsTV"
+            app:layout_constraintTop_toBottomOf="@id/caloriesAmountTV"
+            android:layout_marginTop="@dimen/card_text_margin"
+            android:layout_marginStart="@dimen/card_text_margin"
+            android:textSize="17sp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/fatsAmountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/card_text_height"
+            app:layout_constraintStart_toEndOf="@id/fatsTV"
+            app:layout_constraintTop_toBottomOf="@id/proteinsAmountTV"
+            android:layout_marginTop="@dimen/card_text_margin"
+            android:layout_marginStart="@dimen/card_text_margin"
+            android:textSize="17sp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/carbsAmountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/card_text_height"
+            app:layout_constraintStart_toEndOf="@id/carbsTV"
+            app:layout_constraintTop_toBottomOf="@id/fatsAmountTV"
+            android:layout_marginTop="@dimen/card_text_margin"
+            android:layout_marginStart="@dimen/card_text_margin"
+            android:textSize="17sp"
+            android:padding="4dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
